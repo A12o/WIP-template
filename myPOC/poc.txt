@@ -1,0 +1,6 @@
+#!/bin/bash
+yum makecache fast
+yum -y install httpd
+echo "one web page coming up" > /var/www/html/index.html
+service httpd start
+chkconfig httpd on

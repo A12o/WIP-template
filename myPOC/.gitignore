@@ -1,0 +1,47 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+sdist
+develop-eggs
+.installed.cfg
+__pycache__
+
+# Installer logs
+*.log
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# vagrant
+/assets
+.vagrant
+/vagrant_ansible_inventory_*
+/vbox
+
+# vim
+*.swp
+*.swo
+
+# local machine
+.idea
+.DS_Store
